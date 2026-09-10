@@ -99,9 +99,28 @@
         <div class="relative mx-auto w-full max-w-sm lg:mx-0 lg:justify-self-end">
           <div class="absolute -inset-7 rounded-[2.5rem] bg-gradient-to-br from-electric/30 to-aqua/20 blur-2xl"></div>
           <div class="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/[.07] p-7 shadow-2xl backdrop-blur-xl">
-            <div class="mx-auto grid aspect-square max-w-[220px] place-items-center rounded-[1.75rem] border border-white/15 bg-gradient-to-br from-slate-700 to-navy shadow-inner" role="img" aria-label="Monograma de Miguel Suárez Valadez">
-              <span class="text-7xl font-extrabold tracking-tighter text-white">MS</span>
-            </div>
+           <div
+    class="mx-auto grid aspect-square max-w-[220px] place-items-center overflow-hidden rounded-[1.75rem] border border-white/15 bg-gradient-to-br from-slate-700 to-navy shadow-inner"
+>
+    <img
+        src="./imagenes/linkedinn3.JPG"
+        alt="Fotografía profesional de Miguel Suárez Valadez"
+        class="h-full w-full object-cover"
+        style="object-position: center 20%;"
+        loading="eager"
+        onerror="
+            this.classList.add('hidden');
+            this.nextElementSibling.classList.remove('hidden');
+        "
+    >
+
+    <span
+        class="hidden text-7xl font-extrabold tracking-tighter text-white"
+        aria-label="Miguel Suárez Valadez"
+    >
+        MS
+    </span>
+</div>
             <div class="mt-7 grid grid-cols-3 divide-x divide-white/10 text-center">
               <div><strong class="block text-2xl text-white">16</strong><span class="mt-1 block text-xs text-slate-400">líneas</span></div>
               <div><strong class="block text-2xl text-white">500</strong><span class="mt-1 block text-xs text-slate-400">personas</span></div>
